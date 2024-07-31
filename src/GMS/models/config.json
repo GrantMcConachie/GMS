@@ -1,0 +1,22 @@
+{
+    "data": {
+        "node_feature_len": 125,
+        "edge_feature_len": 6
+    },
+    "training": {
+        "num_epochs": 500,
+        "batch_size": 32,
+        "learning_rate": 1e-4,
+        "weight_decay": 1e-4
+    },
+    "model_params": {
+        "emb_hidden": 512,
+        "emb_out": 256,
+        "GINE_hidden": 256,
+        "GINE_out": 256,
+        "proj_hidden":256,
+        "proj_out": 128,
+        "mp_layers": 5,
+        "dropout": 0.0
+    }
+}
