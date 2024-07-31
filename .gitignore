@@ -1,7 +1,6 @@
 # project specific
 .DS_store
 .vscode
-grant_gnn/.experiments
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
